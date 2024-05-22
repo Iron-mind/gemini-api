@@ -8,12 +8,13 @@ async function run() {
   // For text-only input, use the gemini-pro model
   const model = genAI.getGenerativeModel({ model: "gemini-pro" });
 
-  const prompt = "Dime tres ciudades bonitas de colombia"
+  const prompt = "Dime tres ciudades bonitas de china"
 
   const result = await model.generateContent(prompt);
   const response = await result.response;
   const text = response.text();
   console.log(text);
+  console.log("funciona")
 }
 
 run();
