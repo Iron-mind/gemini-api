@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node prompt-by-console.js",
+    "img-input": "node text-and-image-ex.js"
   },
   "keywords": [],
   "author": "",
@@ -14,5 +15,6 @@
     "@google-cloud/vertexai": "1.2.0",
     "@google/generative-ai": "0.11.3",
     "dotenv": "16.4.5"
-  }
+  },
+  "type": "commonjs"
 }

@@ -32,7 +32,7 @@ async function testByConsolePrompt() {
 }
 async function run() {
   // For text-only input, use the gemini-pro model
-  const model = genAI.getGenerativeModel({ model: "gemini-pro" });
+  const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
   const prompt = generateTextRequest(testContext, testRequest, testInput);
 
